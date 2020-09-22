@@ -1,6 +1,5 @@
 const LOGIN_URL = "http://localhost:8088/api/auth/login";
 window.addEventListener("load", function () {
-
     document.getElementById("my-form").addEventListener("submit", function (e) {
         e.preventDefault(); // before the code
         /* do what you want with the form */
@@ -20,7 +19,7 @@ window.addEventListener("load", function () {
             if (http.status === 200) {
                 let token = JSON.parse(http.response).authenticationToken;
                 window.localStorage.setItem("token", token)
-                window.location.replace("NotFound.html");
+                window.location.replace("./home/home.html");
             } else {
                 document.getElementById("not-authen").innerHTML = 'username or password is not correct';
             }

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HOME</title>
+
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<body class="back-ground container">
+<div>
+    <table class="table" id="id01">
+        <thead>
+        <tr>
+            <th scope="col">id</th>
+            <th scope="col">username</th>
+            <th scope="col">ip</th>
+            <th scope="col">device</th>
+            <th scope="col">browser</th>
+            <th scope="col">status</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr w3-repeat="data">
+            <th scope="row">{{id}}</th>
+            <td>{{userName}}</td>
+            <td>{{ip}}</td>
+            <td>{{device}}</td>
+            <td>{{browser}}</td>
+            <td>{{isActive}}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+<style>
+    .back-ground {
+        background-color: lightblue;
+        color: red;
+    }
+
+    table, th, td {
+        border: 1px solid black;
+    }
+</style>
+<script src="home.js"></script>
+</html>
