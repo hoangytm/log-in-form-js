@@ -20,12 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0901bf34-1196-47b3-84af-350a06932762" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/home/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signature/signature.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signature/upload.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/form-login.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/form-login.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/Login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/home/home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,25 +75,25 @@
     <configuration name="Login.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63344/form-login/Login.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="NotFound.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63344/form-login/NotFound.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
     <configuration name="home.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63344/form-login/home/home.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="test.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63344/form-login/test.html" useBuiltInWebServerPort="true">
+    <configuration name="upload.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/form-login/signature/upload.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/main.js" working-dir="$PROJECT_DIR$">
+    <configuration name="home.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/home/home.js" working-dir="$PROJECT_DIR$/home">
+      <method v="2" />
+    </configuration>
+    <configuration name="signature.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/signature/signature.js" working-dir="$PROJECT_DIR$/signature">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JavaScript Debug.Login.html" />
+        <item itemvalue="Node.js.signature.js" />
+        <item itemvalue="JavaScript Debug.upload.html" />
         <item itemvalue="JavaScript Debug.home.html" />
-        <item itemvalue="JavaScript Debug.test.html" />
-        <item itemvalue="Node.js.main.js" />
-        <item itemvalue="JavaScript Debug.NotFound.html" />
+        <item itemvalue="Node.js.home.js" />
       </list>
     </recent_temporary>
   </component>
@@ -103,7 +107,9 @@
       <updated>1600671969701</updated>
       <workItem from="1600671970750" duration="6328000" />
       <workItem from="1600685467987" duration="610000" />
-      <workItem from="1600741223792" duration="7194000" />
+      <workItem from="1600741223792" duration="15916000" />
+      <workItem from="1600824623768" duration="1267000" />
+      <workItem from="1600856338472" duration="2126000" />
     </task>
     <servers />
   </component>
@@ -120,24 +126,57 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1600684691055">
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1600857835319">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1600684691055" />
-    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1600684691055">
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1600857835319" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1600857835319">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1600684691055" />
-    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1600684691055">
+    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1600857835319" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1600857835319">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1600684691055" />
-    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1600684691055">
+    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1600857835319" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1600857835319">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1600684691055" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1600857835319" />
+    <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1600857781254">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1600857781254" />
+    <state width="1877" height="352" key="GridCell.Tab.1.center" timestamp="1600857781254">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1600857781254" />
+    <state width="1877" height="352" key="GridCell.Tab.1.left" timestamp="1600857781254">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1600857781254" />
+    <state width="1877" height="352" key="GridCell.Tab.1.right" timestamp="1600857781254">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1600857781254" />
+    <state width="1877" height="352" key="GridCell.Tab.2.bottom" timestamp="1600857781254">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.2.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1600857781254" />
+    <state width="1877" height="352" key="GridCell.Tab.2.center" timestamp="1600857781254">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.2.center/0.0.1920.1050@0.0.1920.1050" timestamp="1600857781254" />
+    <state width="1877" height="352" key="GridCell.Tab.2.left" timestamp="1600857781254">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.2.left/0.0.1920.1050@0.0.1920.1050" timestamp="1600857781254" />
+    <state width="1877" height="352" key="GridCell.Tab.2.right" timestamp="1600857781254">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.2.right/0.0.1920.1050@0.0.1920.1050" timestamp="1600857781254" />
     <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1600673460880">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

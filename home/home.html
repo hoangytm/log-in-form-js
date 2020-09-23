@@ -5,11 +5,31 @@
     <title>HOME</title>
 
     <script src="https://www.w3schools.com/lib/w3.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body class="back-ground container">
 <div>
-    <table class="table" id="id01">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../Login.html" onclick="clearToken()">Logout</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+</div>
+<div>
+    <table class="table table-dark" id="id01">
         <thead>
         <tr>
             <th scope="col">id</th>
@@ -27,7 +47,9 @@
             <td>{{ip}}</td>
             <td>{{device}}</td>
             <td>{{browser}}</td>
-            <td>{{isActive}}</td>
+            <td>
+                <button type="button" onclick="changeStatus(`{{id}}`)" class="btn btn-warning">{{isActive}}</button>
+            </td>
         </tr>
         </tbody>
     </table>
@@ -35,12 +57,16 @@
 </body>
 <style>
     .back-ground {
-        background-color: lightblue;
+        /*background-color: lightblue;*/
         color: red;
     }
 
     table, th, td {
         border: 1px solid black;
+    }
+
+    li {
+        text-decoration: none;
     }
 </style>
 <script src="home.js"></script>

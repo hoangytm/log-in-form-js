@@ -1,15 +1,9 @@
-const LOGIN_URL = "http://localhost:8088/api/auth/login";
 window.addEventListener("load", function () {
-    document.getElementById("my-form").addEventListener("submit", function (e) {
+    document.getElementById("signature-form").addEventListener("submit", function (e) {
         e.preventDefault(); // before the code
         /* do what you want with the form */
-        console.log(LOGIN_URL)
-        let username = document.getElementById("username").value;
-        let password = document.getElementById("password").value;
-        const params = {
-            username: username,
-            password: password,
-        };
+        let file = document.getElementById("myFile").value;
+       console.log(toBase64(file))
         const http = new XMLHttpRequest();
         http.open("POST", LOGIN_URL);
         http.setRequestHeader("Content-type", "application/json");
@@ -24,5 +18,12 @@ window.addEventListener("load", function () {
                 document.getElementById("not-authen").innerHTML = JSON.parse(http.response).message;
             }
         };
+        const toBase64 = file => new Promise((resolve, reject) => {
+            const reader = new FileReader();
+            reader.readAsDataURL(file);
+            reader.onload = () => resolve(reader.result);
+            reader.onerror = error => reject(error);
+        });
+
     });
 });
